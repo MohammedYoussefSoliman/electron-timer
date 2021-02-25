@@ -1,0 +1,33 @@
+@import "../../scss/base/base";
+@import "../../scss/utils/variables";
+@import "../../scss/utils/mixins";
+
+
+.user {
+   width: 100%;
+   height: 100%;
+   display: flex;
+   align-items: center;
+//    justify-content: space-between;
+   &--info {
+       margin-left: 1rem;
+       &__name {
+           font-size: 1.125rem;
+           font-weight: 600;
+           color: $header-typo;
+       }
+       &__title {
+           font-size: 0.8rem;
+           font-weight: 400;
+           color: $grey-typo;
+       }
+   }
+   &--actions {
+       margin-left: auto;
+       &__btn {
+           padding: 6px !important;
+       }
+   }
+}
+
+@import "../../scss/utils/responsive";

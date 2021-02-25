@@ -1,0 +1,133 @@
+@import "./variables";
+
+@mixin center-content-x {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin center-content-y {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin btn($color) {
+  background: $color;
+  color: $white;
+  padding: 14px 20px;
+  position: relative;
+  @include center-content-x;
+  white-space: nowrap;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+// utlility classes
+
+.container {
+  max-width: 1040px;
+  margin: auto;
+}
+
+.home--container {
+  max-width: 1040px;
+  margin: auto;
+  padding: 2rem 0;
+}
+
+.app-container {
+  width: 100%;
+  max-width: 1040px;
+  margin: 0 auto;
+}
+
+.w100 {
+  min-width: 100%;
+}
+
+.h1__txt {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.5em;
+  color: $main-typo;
+}
+
+.h2__txt {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.35em;
+  margin: 0;
+  color: $main-typo;
+  span {
+    font-weight: 500;
+  }
+}
+
+.normal__txt {
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.1em;
+  margin: 0;
+  color: $main-typo;
+}
+
+.menu__txt {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.375em;
+  text-transform: capitalize;
+  color: $main-typo;
+}
+
+.light__txt {
+  font-size: 1em;
+  font-weight: 500;
+  line-height: 1.375em;
+  color: $white;
+}
+
+.small__light__txt {
+  font-size: 0.75em;
+  font-weight: 400;
+  line-height: 1em;
+  color: $white;
+}
+
+.btn__txt {
+  font-size: 0.875em;
+  font-weight: 700;
+  line-height: 1.625em;
+  color: $white;
+}
+
+.black {
+  color: $main-typo;
+}
+
+.green {
+  color: $green;
+}
+.red {
+  color: $red;
+}
+
+.btn__primary {
+  background: $primary-color;
+  color: $white;
+}
+
+.btn__success {
+  background: $green;
+  color: $white;
+}
+
+.btn__trans {
+  background: transparent;
+}
+
+.accent {
+  color: $accent;
+}

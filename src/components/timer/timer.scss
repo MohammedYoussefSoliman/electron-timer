@@ -1,0 +1,16 @@
+@import "../../scss/base/base";
+@import "../../scss/utils/variables";
+@import "../../scss/utils/mixins";
+
+
+.timer {
+    &--display {
+        span {
+            color: $header-typo;
+            font-size: 1.6rem;
+            font-weight: 700;
+        }
+    }
+}
+
+@import "../../scss/utils/responsive";

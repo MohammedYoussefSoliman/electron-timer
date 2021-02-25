@@ -1,0 +1,12 @@
+@import "../../scss/base/base";
+@import "../../scss/utils/variables";
+@import "../../scss/utils/mixins";
+
+
+.paper {
+    background: $grey !important;
+    padding: 1rem;
+    border-radius: 10px !important;
+}
+
+@import "../../scss/utils/responsive";

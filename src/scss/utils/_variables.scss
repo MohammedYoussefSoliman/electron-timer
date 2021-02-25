@@ -1,0 +1,47 @@
+// colors
+
+$primary-color: #0f3043;
+$secondary-color: #F85365;
+$main-typo: #010101;
+$header-typo: #2E539B;
+$grey-typo: #515151;
+$blue: #2E539B;
+$shade:#F5F5F5;
+$accent:#3FC1C9;
+$grey:#EDEDED;
+$green: #09D64E;
+$yellow: #f9c744;
+$red: #fd1717;
+$white: #ffffff;
+
+// font sizes
+
+$text-xs: 1em;
+$text-sm: 1.2em;
+$text-md: 1.4em;
+$text-lg: 2em;
+$text-xl: 2.4em;
+$text-xxl: 3.2em;
+
+// generics
+
+$generic-border: 1px solid #e5e5e5;
+$generic-box-shadow: 0px 1px 1px 0px #000000 5%;
+
+@keyframes clockwise-rotating {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes anti-clockwise-rotating {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}

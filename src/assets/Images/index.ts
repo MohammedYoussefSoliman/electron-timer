@@ -1,0 +1,1 @@
+export {default as thanos} from './thanos.jpg';
