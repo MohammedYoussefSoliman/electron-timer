@@ -18,8 +18,10 @@ const LogoIcon = ({width, color, fillColor, withoutTypography=false}:Iprop) => {
 
         if(!width && !withoutTypography) {
             wid=189
-        }else{
+        }else if(!width){
             wid=40
+        }else{
+            wid=width
         }
         return `${wid*ratio}`
     }

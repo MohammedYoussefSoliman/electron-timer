@@ -13,6 +13,7 @@ const Timer = () => {
 
     return(
         <main className="timer">
+            <Controls setTimeInSeconds={setTimeInSeconds} />
             <section className="timer--display">
                 <span id="hour">{timeArray[0]}</span>
                 <span>:</span>
@@ -20,7 +21,6 @@ const Timer = () => {
                 <span>:</span>
                 <span id="second">{timeArray[2]}</span>
             </section>
-            <Controls setTimeInSeconds={setTimeInSeconds} />
         </main>
     );
 }

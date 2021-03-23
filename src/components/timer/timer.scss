@@ -4,13 +4,32 @@
 
 
 .timer {
+    display: flex;
+    align-items: center;
     &--display {
         span {
-            color: $header-typo;
-            font-size: 1.6rem;
+            color: $secondary-color;
+            font-size: 48px;
             font-weight: 700;
         }
     }
+    &--controls {
+        &__btn {
+            border: none;
+            width: 48px;
+            height: 48px;
+            margin-right: 1.5rem;
+            border-radius: 5px;
+            @include center-content-y;
+            background-color: #7171714f;
+            cursor: pointer;
+            outline: none;
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+
 }
 
 @import "../../scss/utils/responsive";

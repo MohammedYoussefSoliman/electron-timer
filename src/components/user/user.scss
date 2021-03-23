@@ -12,20 +12,20 @@
    &--info {
        margin-left: 1rem;
        &__name {
-           font-size: 1.125rem;
+           font-size: 1rem;
            font-weight: 600;
-           color: $header-typo;
+           color: $secondary-color;
        }
        &__title {
-           font-size: 0.8rem;
+           font-size: 0.7rem;
            font-weight: 400;
-           color: $grey-typo;
+           color: #BBBBBB;
        }
    }
    &--actions {
        margin-left: auto;
        &__btn {
-           padding: 6px !important;
+           padding: 12px !important;
        }
    }
 }

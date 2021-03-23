@@ -5,7 +5,7 @@ const path = require('path')
 const getScreenshot = async()=>{
  await screenshot.listDisplays()
   .then((displays) => {
-    // console.log(displays)
+    console.log(displays)
     for (let index = 0; index < displays.length; index++) {
       const display = displays[index]
       const imgpath = path.join(__dirname+'/shots/',Date.now() + '_' + index + '.jpg')

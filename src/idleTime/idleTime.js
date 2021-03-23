@@ -1,11 +1,11 @@
-const desktopIdle = require('desktop-idle');
+// const desktopIdle = require('desktop-idle');
 
 
-const getIdleTime =()=>{
-    let idle = desktopIdle.getIdleTime()
-    let  start = Date.now();
+// const getIdleTime =()=>{
+//     let idle = desktopIdle.getIdleTime()
+//     let  start = Date.now();
     
-    return idle
-}
+//     return idle
+// }
 
-module.exports = getIdleTime
+// module.exports = getIdleTime

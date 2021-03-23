@@ -7,7 +7,7 @@ console.log(`craco.config.js: setting webpack target to: ${target}`);
 module.exports = {
     webpack: {
         configure: {
-            target: target
+            target: 'electron-renderer'
         }
     }
 };
